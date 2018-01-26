@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="1号机器人" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/1号机器人" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/1号机器人" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Matrix.cpp" />
+		<Unit filename="src/Matrix.h" />
+		<Unit filename="src/OPKinematics.cpp" />
+		<Unit filename="src/OPKinematics.h" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Point.h" />
+		<Unit filename="src/Transform.cpp" />
+		<Unit filename="src/Transform.h" />
+		<Unit filename="src/Vector.cpp" />
+		<Unit filename="src/Vector.h" />
+		<Unit filename="src/basicwalk.cpp" />
+		<Unit filename="src/basicwalk.h" />
+		<Unit filename="src/body_actions.cpp" />
+		<Unit filename="src/body_actions.h" />
+		<Unit filename="src/global.cpp" />
+		<Unit filename="src/global.h" />
+		<Unit filename="src/head_actions.cpp" />
+		<Unit filename="src/head_actions.h" />
+		<Unit filename="src/image.cpp" />
+		<Unit filename="src/image.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/pid_debug.cpp" />
+		<Unit filename="src/pid_debug.h" />
+		<Unit filename="src/pthread.cpp" />
+		<Unit filename="src/pthread.h" />
+		<Unit filename="src/ref_box.cpp" />
+		<Unit filename="src/ref_box.h" />
+		<Unit filename="src/tcp.cpp" />
+		<Unit filename="src/tcp.h" />
+		<Unit filename="src/util.cpp" />
+		<Unit filename="src/util.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

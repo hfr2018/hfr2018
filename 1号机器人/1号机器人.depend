@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1516938329 source:/home/wanghui/桌面/1号机器人/src/basicwalk.cpp
+	"global.h"
+
+1516847839 /home/wanghui/桌面/1号机器人/src/global.h
+	<iostream>
+	<cmath>
+	<string>
+	<iomanip>
+	<fstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<termios.h>
+	<errno.h>
+	<sys/time.h>
+	<signal.h>
+	<pthread.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"tcp.h"
+	<arpa/inet.h>
+	<semaphore.h>
+	<opencv2/opencv.hpp>
+	"highgui.h"
+	"cv.h"
+	"cxcore.h"
+	"cxmisc.h"
+	"ref_box.h"
+	"pid_debug.h"
+	"Point.h"
+	"Matrix.h"
+	"Vector.h"
+	"OPKinematics.h"
+	"basicwalk.h"
+	"Transform.h"
+	"util.h"
+	"image.h"
+	"pthread.h"
+	"head_actions.h"
+	"body_actions.h"
+
+1436080184 /home/wanghui/桌面/1号机器人/src/tcp.h
+	<stddef.h>
+
+1436515144 /home/wanghui/桌面/1号机器人/src/ref_box.h
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<iostream>
+	"global.h"
+
+1412668666 /home/wanghui/桌面/1号机器人/src/pid_debug.h
+
+1412668666 /home/wanghui/桌面/1号机器人/src/Point.h
+
+1412668666 /home/wanghui/桌面/1号机器人/src/Matrix.h
+	"Vector.h"
+	"Point.h"
+
+1412668666 /home/wanghui/桌面/1号机器人/src/Vector.h
+	"Point.h"
+
+1433454184 /home/wanghui/桌面/1号机器人/src/OPKinematics.h
+	<math.h>
+	<vector>
+	"Transform.h"
+
+1412668666 /home/wanghui/桌面/1号机器人/src/Transform.h
+	<vector>
+
+1431242402 /home/wanghui/桌面/1号机器人/src/basicwalk.h
+	"global.h"
+	<iostream>
+	<cmath>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<termios.h>
+	<errno.h>
+	<sys/time.h>
+	<signal.h>
+	<string.h>
+	<math.h>
+	"Point.h"
+	"Matrix.h"
+	"Vector.h"
+	"OPKinematics.h"
+
+1437105926 /home/wanghui/桌面/1号机器人/src/util.h
+	"global.h"
+
+1516847554 /home/wanghui/桌面/1号机器人/src/image.h
+	"global.h"
+
+1436715660 /home/wanghui/桌面/1号机器人/src/pthread.h
+
+1436954238 /home/wanghui/桌面/1号机器人/src/head_actions.h
+
+1436954326 /home/wanghui/桌面/1号机器人/src/body_actions.h
+	"global.h"
+
+1516870924 source:/home/wanghui/桌面/1号机器人/src/body_actions.cpp
+	"global.h"
+
+1437265595 source:/home/wanghui/桌面/1号机器人/src/global.cpp
+	"global.h"
+
+1437224033 source:/home/wanghui/桌面/1号机器人/src/head_actions.cpp
+	"global.h"
+
+1516847554 source:/home/wanghui/桌面/1号机器人/src/image.cpp
+	"global.h"
+
+1516933877 source:/home/wanghui/桌面/1号机器人/src/main.cpp
+	<iostream>
+	"global.h"
+	<stdlib.h>
+	"basicwalk.h"
+
+1412668666 source:/home/wanghui/桌面/1号机器人/src/Matrix.cpp
+	<math.h>
+	"Matrix.h"
+
+1433454184 source:/home/wanghui/桌面/1号机器人/src/OPKinematics.cpp
+	"OPKinematics.h"
+	"Transform.h"
+	<math.h>
+	<stdio.h>
+
+1433604906 source:/home/wanghui/桌面/1号机器人/src/pid_debug.cpp
+	"global.h"
+
+1412668666 source:/home/wanghui/桌面/1号机器人/src/Point.cpp
+	<math.h>
+	"Point.h"
+
+1437244491 source:/home/wanghui/桌面/1号机器人/src/pthread.cpp
+	"global.h"
+
+1437058128 source:/home/wanghui/桌面/1号机器人/src/ref_box.cpp
+	"global.h"
+
+1437031056 source:/home/wanghui/桌面/1号机器人/src/tcp.cpp
+	"tcp.h"
+	<iostream>
+	<unistd.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+
+1412668666 source:/home/wanghui/桌面/1号机器人/src/Transform.cpp
+	"Transform.h"
+	<math.h>
+
+1437244492 source:/home/wanghui/桌面/1号机器人/src/util.cpp
+	"global.h"
+
+1412668666 source:/home/wanghui/桌面/1号机器人/src/Vector.cpp
+	<math.h>
+	"Vector.h"
+
